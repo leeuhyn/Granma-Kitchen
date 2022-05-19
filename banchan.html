@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <title> 🍽 할머니 주방 🍽 </title>
+    <meta name="description" content="할머니들이 직접 만들고 배달하는 반찬서비스 앱.">
+    <link rel="stylesheet" href="banchan.css">
+  </head>
+
+  <main>
+  <body>
+    <header>
+      <h1 align="middle"> 🍽 할머니 주방 🍽 </h1>
+      <h2 align="middle"> 우리 동네 할머니반찬 </h2>
+        <nav>
+          <ul>
+            <li><a href="#"> 서비스 소개 </a></li>
+            <li><a href="#"> 비용 정보 </a></li>
+            <li><a href="#"> 앱 다운로드 </a></li>
+            <li><a href="#"> 문의 사항 </a></li>
+          </ul>
+        </nav>
+      <style>
+        h1 {color: #8D4839}
+        h1 {font-size: 40px;}
+      </style>
+    </header>
+
+    <article>
+    <h2> 🍽 할머니 주방 🍽 </h2>
+    <h3> 할머니 주방이란? </h3>
+      <h5>  할머니들이 직접 만들고 배달 혹은 고객이 픽업할 수 있는 동네 반찬 거래 어플리케이션입니다. </h5>
+      <h5> 동네에서 쉽게 주고 받는 할머니들 반찬 거래! 이제는 가게에서 사지마세요! </h5>
+    <a href="https://google.co.kr" target="_blank">
+      <img scr="nom" alt="직접 만든 반찬">
+      </a>
+
+    <ul>
+      <h6> ✔️ 편하게 할머니들 산책겸 배달로 받아보세요! </h6>
+      <h6> ✔️ 직접 할머니댁 앞으로 가져가는 선택지도 있어요! </h6>
+    </ul>
+    </article>
+
+    <section>
+    <h4> 👵🏻 사용 방법 [할머니] </h4>
+      <ol>
+        <li> 앱을 다운로드한다. (위치 기능 허용해야함) </li>
+        <li> 간단한 전화번호 본인인증 후 가입한다. </li>
+        <li> 반찬 이름을 리스트에서 선택한다. </li>
+        <li> 직접 만든 사진을 등록한다. </li>
+        <li> 알고리즘을 통해 직접 만든 반찬인 것 확인한다. </li>
+        <li> 상세 설명과 원하는 거래 방식 그리고 가격을 등록한다. </li>
+      </ol>
+    <h4> 👩🏻 사용 방법 [손자손녀] </h4>
+      <ol>
+        <li> 앱을 다운로드한다. (위치 기능 허용해야함) </li>
+        <li> 간단한 전화번호 본인인증 후 가입한다. </li>
+        <li> 동네 지역 지도를 클릭하여 주변 할머니를 확인한다. </li>
+        <li> 원하는 할머니 선택 후, 반찬을 선택하고 구입을 누른다. </li>
+        <li> 거래방식은 두 가지 중 선택한다.
+          <h4> 🏍 배달 </h4>
+          <ul>
+            <li> 할머니가 배달해주세요! </li>
+            <li> 제가 가지러 갈게요! </li>
+          </ul>
+          <h4> 💰 값 지불 </h4>
+          <ul>
+            <li> 할주 은행 </li>
+            <li> 현금 거래 </li>
+          </ul>
+          <h4> </h4>
+        <li> 선택 후 주문하면 거래 소요 기간이 뜬다. </li>
+      </ol>
+    </section>
+  </main>
+
+  <section>
+    <h3> 💸 할주 비용 내역 </h3>
+    <table border="1">
+      <tr>
+        <th colspan="2"> 할주 이용 요금 내역 </th>
+      </tr>
+      <tr>
+        <th> 요금 내용 </th>
+        <th> 비용 </th>
+      </tr>
+      <tr>
+        <th> 할머니 반찬가게 등록 요금 </th>
+        <th> 월 10,000원 </th>
+      </tr>
+      <tr>
+        <th> 할머니 반찬가게 태블릿 제공요금 </th>
+        <th> 월 2,900원 </th>
+      </tr>
+    </table>
+  </section>
+
+  <aside>
+    <h3> ✅ 앱 출시 알림 설정 </h3>
+    <form action="example.php" method="post" name="신청 폼">
+      이름:
+        <input type="text" placeholder="이름을 적어주세요">
+        <h3></h3>
+      정보:
+        <input type="radio" name="이용자" value="할머니" checked> 할머니
+        <input type="radio" name="이용자" value="손자손녀"> 손자손녀
+        <h3></h3>
+      이메일:
+        <input type="email" placeholder="이메일을 적어주세요">
+        <h3></h3>
+      전화번호:
+        <input type="tel" placeholder="전화번호를 적어주세요">
+        <h3></h3>
+      선호하는 반찬:
+        <input type="checkbox" name="반찬" value="간장게장" checked> 간장게장
+        <input type="checkbox" name="반찬" value="김치"> 김치
+        <input type="checkbox" name="반찬" value="오징어젓갈"> 오징어젓갈
+        <h3></h3>
+      거주지:
+        <input type="checkbox" name="travel" value="경기도" id="gyeonggi">
+        <label for="gyeonggi"> 경기도 </label>
+        <input type="checkbox" name="travel" value="강원도" id="gangwon">
+        <label for="gangwon"> 강원도 </label>
+        <input type="checkbox" name="travel" value="서울특별시" id="seoul">
+        <label for="seoul"> 서울특별시 </label>
+        <h3></h3>
+      선호 거래방식:
+        <select name="method">
+          <option value="할머니배달"> 할머니 배달 </option>
+          <option value="직접가지러가기"> 직접 가지러가기 </option>
+          <option value="무관"> 무관 </option>
+        </select>
+        <h3></h3>
+      문의 사항:
+        <textarea name="message" placeholder="궁금한 점이 있으시면 문의 사항 남겨주세요!"> </textarea>
+        <h3></h3>
+      <input type="submit" value="제출하기">
+    </form>
+    </aside>
+
+    <footer>
+    <p> 다운로드를 원하신다면 인스타그램 <a href="https://www.instagram.com/leeuhyn/" target="_blank"> DM </a> 해주세요! </p>
+    </footer>
+  </body>
+</html>
